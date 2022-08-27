@@ -52,7 +52,7 @@ I have also hosted the app in streamlit share. Check it here.
 
 https://ryan-2222-emotionbasedmusicrecommendationsystem-app-t3d1tz.streamlitapp.com/
 
-Click the start button and wait a while. You will see your face inside the box!
+Click the start button and wait a while. You will see your face inside the box! (not myself)
 
 ![avatar](images/sample1.png)
 
