@@ -13,6 +13,9 @@ Recommend you a piece of music that suits you based on your current mood!
 - pillow
 - matplotlib
 - scipy
+- streamlit
+- streamlit-player
+- streamlit-webrtc
 
 ```python
 pip install tensorflow
@@ -21,6 +24,15 @@ pip install opencv-python
 pip install pillow
 pip install matplotlib
 pip install scipy
+pip install streamlit
+pip install streamlit_player
+pip install streamlit_webrtc
+```
+
+or using the requirements.txt
+
+```python
+pip install -r requirements.txt
 ```
 
 ## How to use?
@@ -28,35 +40,45 @@ pip install scipy
 - Run the program with the following command in cmd.
 
 ```python
-py predict.py
+py main.py
 ```
 
-After running for a while, you can see your face in your screen which like the picture has shown below.
-(The program only starts running when your face is detected).
+After running for a while, the program will direct you to your browser with the server hosting.
+Here is the UI.
 
-![avatar](images/sample.png)
+![avatar](images/UI.jpg)
+
+I have also host this app into streamlit share. Check it here.
+
+https://ryan-2222-emotionbasedmusicrecommendationsystem-app-vn355r.streamlitapp.com/
+
+Click the start button and wait a while. You will see your face in the box!
+
+![avatar](images/sample1.png)
 
 Enjoy your music time!
 
 ###### Notice: Music can be edited on ```songs/{emotion}.txt``` if you would like to.
 
+## Graph
+You may see the Graph about Data Accuracy and Data Loss of the AI model here.
+
+![avatar](images/sample2.jpg)
+
 ---
-# Face Emotion Recognizer (For AI Model Testing)
-If you would like to try the AI model only, you may run the following command in cmd.
 
-## Library Required
+# AI model training 
 
-- streamlit
-- streamlit_webrtc
+We have already trained a model for you which is saved in ```Model``` folder. However if you want to train yourself, we are using ```Kaggle fer2013``` as our training datasets. Please download the dataset ```fer2013.csv``` and place it into ```data``` folder
+
 ```python
-pip install streamlit
-pip install streamlit_webrtc
-```
+py fer2013_process 
+``` 
+To process the dataset
 
-## How to use?
-- Open cmd and run the following command
 ```python
-py app_run.py
+py train.py
 ```
+To train the model
 
 ---
