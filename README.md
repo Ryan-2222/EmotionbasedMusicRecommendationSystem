@@ -29,7 +29,7 @@ pip install streamlit_player
 pip install streamlit_webrtc
 ```
 
-or using the requirements.txt
+or use requirements.txt
 
 ```python
 pip install -r requirements.txt
@@ -48,11 +48,11 @@ Here is the UI.
 
 ![avatar](images/UI.jpg)
 
-I have also host this app into streamlit share. Check it here.
+I have also hosted the app in streamlit share. Check it here.
 
 https://ryan-2222-emotionbasedmusicrecommendationsystem-app-vn355r.streamlitapp.com/
 
-Click the start button and wait a while. You will see your face in the box!
+Click the start button and wait a while. You will see your face inside the box!
 
 ![avatar](images/sample1.png)
 
