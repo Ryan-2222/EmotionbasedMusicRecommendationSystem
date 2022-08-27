@@ -69,7 +69,7 @@ You may see the Graph about Data Accuracy and Data Loss of the AI model here.
 
 # AI model training 
 
-We have already trained a model for you which is saved in ```Model``` folder. However if you want to train yourself, we are using ```Kaggle fer2013``` as our training datasets. Please download the dataset ```fer2013.csv``` and place it into ```data``` folder
+We have already trained a model for you which is saved in ```Model``` folder. However if you want to train it yourself, we are using ```Kaggle fer2013``` as our training datasets. Please download the dataset ```fer2013.csv``` and place it into ```data``` folder
 
 ```python
 py fer2013_process 
