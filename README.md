@@ -50,7 +50,7 @@ Here is the UI.
 
 I have also hosted the app in streamlit share. Check it here.
 
-https://ryan-2222-emotionbasedmusicrecommendationsystem-app-vn355r.streamlitapp.com/
+https://ryan-2222-emotionbasedmusicrecommendationsystem-app-stre-shohx2.streamlitapp.com/
 
 Click the start button and wait a while. You will see your face inside the box!
 
