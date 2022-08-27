@@ -6,3 +6,4 @@ streamlit_webrtc==0.43.0
 streamlit_player==0.1.5
 matplotlib==3.5.3
 pillow==9.2.0
+opencv-python-headless
